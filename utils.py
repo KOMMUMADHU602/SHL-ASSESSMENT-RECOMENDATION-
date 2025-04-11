@@ -7,7 +7,7 @@ from typing import List, Dict
 class AssessmentRecommender:
     def __init__(self):
         # Load assessment data
-        with open('assessments.json', 'r') as f:
+        with open('assessments.json', 'r', encoding='utf-8') as f:
             self.assessments = json.load(f)
         
         # Initialize sentence transformer model
