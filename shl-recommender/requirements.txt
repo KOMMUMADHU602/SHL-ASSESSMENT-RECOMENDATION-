@@ -1,7 +1,0 @@
-streamlit
-pandas
-requests
-scikit-learn
-sentence-transformers==2.2.2
-huggingface-hub==0.20.3
-torch==2.0.1
