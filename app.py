@@ -1,4 +1,7 @@
 import streamlit as st
+st.cache_resource.clear()  # Clear all cached resources
+
+import streamlit as st
 from utils import AssessmentRecommender, extract_duration_from_query
 import pandas as pd
 import requests
