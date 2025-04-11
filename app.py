@@ -3,6 +3,12 @@ from utils import AssessmentRecommender, extract_duration_from_query
 import pandas as pd
 import requests
 
+@st.cache_resource
+def load_recommender():
+    return AssessmentRecommender()
+
+recommender = load_recommender()
+
 # Initialize recommender
 recommender = AssessmentRecommender()
 
