@@ -1,8 +1,8 @@
 streamlit==1.28.0
 requests==2.31.0
 beautifulsoup4==4.12.2
-pandas==2.1.0  # Updated for Python 3.12
-scikit-learn==1.4.0  # Requires numpy>=1.22
+pandas==2.2.0  # Updated to a Python 3.12-compatible version
+scikit-learn==1.4.0
 sentence-transformers==2.2.2
-numpy>=1.24.4  # Must be >=1.24.4 (no distutils dependency)
-setuptools>=68.0.0  # Explicitly added for Python 3.12
+numpy>=1.26.0  # Critical: Must be >=1.26.0 for Python 3.12
+setuptools>=68.0.0
